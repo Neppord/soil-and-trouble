@@ -2,9 +2,12 @@ module Main exposing (..)
 
 import Html exposing (text)
 
-main = text "Hello world"
+
+main =
+    text "Hello world"
+
 
 type MyType
-  = TypeA
-  | TypeB
-  | TypeC String
+    = TypeA
+    | TypeB
+    | TypeC String
